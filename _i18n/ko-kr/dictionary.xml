@@ -288,7 +288,6 @@
   <block id="18c27fdda3b31de582a5c418705a0eab" category="paragraph">클러스터를 생성하는 데 최대 30분이 걸릴 수 있습니다.</block>
   <block id="aa28e7538205e834e26c77f5630f8893" category="list-text">여러 단계의 클러스터 생성 프로세스를 모니터링하여 클러스터가 성공적으로 생성되었는지 확인합니다.</block>
   <block id="037cb8cf634438a48c4a376dd2eaecea" category="paragraph">페이지는 정기적으로 자동으로 새로 고쳐집니다.</block>
-  <block id="d4f87fedecd0cb118e567859f3b4f8b0" category="admonition">클러스터 생성 작업이 시작되었지만 완료되지 않은 경우 정의한 ONTAP 관리 암호가 등록되지 않을 수 있습니다. 이 경우 admin 계정의 password_changeme123_를 사용하여 ONTAP Select 클러스터의 관리 인터페이스에 액세스할 수 있습니다.</block>
   <block id="c29c0fa60d66b44a13904899d8712c68" category="open-title">다중 노드 클러스터</block>
   <block id="1c9615c8466b4b5438d388b4200a58b4" category="list-text">Welcome to ONTAP Select* 팝업 창이 표시되면 구성 필수 구성 요소가 충족되었는지 확인하고 * OK * 를 클릭합니다.</block>
   <block id="736cb4ef7019568859d8e044e044c906" category="list-text">* 시작하기 * 페이지에서 * 업로드 * 를 클릭하고 로컬 워크스테이션에서 라이센스를 선택한 다음 * 열기 * 를 클릭하여 라이센스를 업로드합니다. 두 번째 라이센스를 추가하려면 이 과정을 반복합니다.</block>
@@ -3841,4 +3840,5 @@ RAID SyncMirror(RSM)</block>
   <block id="cfc60e5db5da2e3856f4ae65f1b4493b" category="cell">ONTAP Select 가상 머신 크기 조정(소규모에서 중간 규모, 중간 규모에서 대규모)</block>
   <block id="5afd324114e926d9bb06b382e5c6f40e" category="cell">적용: 라이센스가 만료되었습니다</block>
   <block id="71781f9ea0fb446c6a84f96eac4f474f" category="cell">예(유예 기간 없음)</block>
+  <block id="f1309e50d04ac13d06dbb8ce9e13947d" category="admonition">클러스터 생성 작업이 시작되었지만 완료되지 않은 경우 정의한 ONTAP 관리 암호가 적용되지 않을 수 있습니다. 이 경우 NetApp 기술 지원 부서에 문의하십시오.</block>
 </blocks>
