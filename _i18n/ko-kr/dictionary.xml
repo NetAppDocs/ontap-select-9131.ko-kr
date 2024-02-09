@@ -571,12 +571,6 @@ ONTAP Select Deploy 유틸리티로 생성된 로그 파일</block>
   <block id="bbbb96898e430d9cf7e061ad70ad17ad" category="list-text">vCenter 자격 증명을 제공하고 플러그인 버전을 선택합니다.</block>
   <block id="9909e23ede42f2318acada35ac10bd3e" category="list-text">Register * 를 클릭합니다.</block>
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
-  <block id="b56253bf92505bda20b38657c778bccf" category="doc">여기에 페이지 제목을 입력합니다</block>
-  <block id="5d9328ee3f628e51f1a4f871ccff7313" category="paragraph">이 서식 파일을 문서, 주제 등 원하는 항목에 사용할 수 있습니다. index.adoc 파일에는 기사 페이지에 대한 올바른 키워드가 없으므로 이 키워드를 서식 파일로 사용하면 나중에 게시 문제가 발생할 수 있습니다.</block>
-  <block id="26739de98ff2a207a5c145caf27c2508" category="admonition">사이드바에 연결되지 않은 경우에도 파일이 게시되므로 초기 게시 전에 이 파일을 삭제하십시오. 몇 가지 문서를 만든 후 대신 스타터로 사용할 수 있습니다.</block>
-  <block id="38b255c5af258b1f086fb7c9aa4f252c" category="paragraph">문서가 콘텐츠 하위 폴더에 있는 경우 위에 표시된 표기법을 두 번 조정해야 합니다.</block>
-  <block id="df25e29acec650a07b41041946158355" category="list-text"><block ref="abc9d0bfc8d5688ddd4babf6a5402ee4" prefix="" category="inline-code"></block></block>
-  <block id="97df5ffadc97296dc727ffddf2d2e1fe" category="list-text"><block ref="ff695bd1637208b4929c7ae2085cd551" prefix="" category="inline-code"></block></block>
   <block id="f003eee578389a046f25dba6e783a672" category="summary">ONTAP Select은 조직 내에서 하나 이상의 프라이빗 클라우드를 지원하는 데 이상적입니다. 일반적인 사용 사례는 일반 서버를 기반으로 구축된 프라이빗 클라우드에 스토리지 서비스를 제공하는 것입니다.</block>
   <block id="fb4b04f0bbd3011e95882612761e5f4a" category="doc">프라이빗 클라우드 및 데이터 센터</block>
   <block id="cc2d9bf42776eb79fe1ddb4e755eff01" category="paragraph">퍼블릭 클라우드와 마찬가지로 프라이빗 클라우드는 유연성을 제공할 뿐만 아니라 빠른 설정 및 해체 기능을 제공합니다. 또한 프라이빗 클라우드는 향상된 보안 및 제어 기능을 제공합니다.</block>
@@ -3841,4 +3835,5 @@ RAID SyncMirror(RSM)</block>
   <block id="5afd324114e926d9bb06b382e5c6f40e" category="cell">적용: 라이센스가 만료되었습니다</block>
   <block id="71781f9ea0fb446c6a84f96eac4f474f" category="cell">예(유예 기간 없음)</block>
   <block id="f1309e50d04ac13d06dbb8ce9e13947d" category="admonition">클러스터 생성 작업이 시작되었지만 완료되지 않은 경우 정의한 ONTAP 관리 암호가 적용되지 않을 수 있습니다. 이 경우 NetApp 기술 지원 부서에 문의하십시오.</block>
+  <block id="b5150f2681f3eb5a5b6aab4cbdadad34" category="paragraph">가상 NAS(vNAS) 구축은 VSAN(가상 SAN)에서 ONTAP Select 클러스터, 일부 HCI 제품 및 외부 어레이 유형의 데이터 저장소를 지원합니다. 이러한 구성의 기본 인프라는 데이터 저장소 복원력을 제공합니다.</block>
 </blocks>
