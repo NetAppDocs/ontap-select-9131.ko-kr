@@ -3836,4 +3836,5 @@ RAID SyncMirror(RSM)</block>
   <block id="71781f9ea0fb446c6a84f96eac4f474f" category="cell">예(유예 기간 없음)</block>
   <block id="f1309e50d04ac13d06dbb8ce9e13947d" category="admonition">클러스터 생성 작업이 시작되었지만 완료되지 않은 경우 정의한 ONTAP 관리 암호가 적용되지 않을 수 있습니다. 이 경우 NetApp 기술 지원 부서에 문의하십시오.</block>
   <block id="b5150f2681f3eb5a5b6aab4cbdadad34" category="paragraph">가상 NAS(vNAS) 구축은 VSAN(가상 SAN)에서 ONTAP Select 클러스터, 일부 HCI 제품 및 외부 어레이 유형의 데이터 저장소를 지원합니다. 이러한 구성의 기본 인프라는 데이터 저장소 복원력을 제공합니다.</block>
+  <block id="8e59a8dddb8fd9611be1f2b3aca8c4fa" category="admonition">ONTAP Select 9.12.1 이상에서는 이제 SVM DR을 최대 16개의 관계로 소스로 지원합니다. SVM DR 지원은 소스 ONTAP 버전을 9.12.1~9.14.1과 같은 버전 + 2로 사용하도록 제한됩니다.</block>
 </blocks>
