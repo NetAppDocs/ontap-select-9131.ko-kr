@@ -3837,4 +3837,10 @@ RAID SyncMirror(RSM)</block>
   <block id="f1309e50d04ac13d06dbb8ce9e13947d" category="admonition">클러스터 생성 작업이 시작되었지만 완료되지 않은 경우 정의한 ONTAP 관리 암호가 적용되지 않을 수 있습니다. 이 경우 NetApp 기술 지원 부서에 문의하십시오.</block>
   <block id="b5150f2681f3eb5a5b6aab4cbdadad34" category="paragraph">가상 NAS(vNAS) 구축은 VSAN(가상 SAN)에서 ONTAP Select 클러스터, 일부 HCI 제품 및 외부 어레이 유형의 데이터 저장소를 지원합니다. 이러한 구성의 기본 인프라는 데이터 저장소 복원력을 제공합니다.</block>
   <block id="8e59a8dddb8fd9611be1f2b3aca8c4fa" category="admonition">ONTAP Select 9.12.1 이상에서는 이제 SVM DR을 최대 16개의 관계로 소스로 지원합니다. SVM DR 지원은 소스 ONTAP 버전을 9.12.1~9.14.1과 같은 버전 + 2로 사용하도록 제한됩니다.</block>
+  <block id="5c4629755c5a0a5545bb649c6d58d899" category="list-text">ONTAP Select 배포 지원이 업데이트되었습니다</block>
+  <block id="f371e1e74365e433f105f30c886225bf" category="inline-link-macro">ONTAP Select 9.14.1 릴리스 정보</block>
+  <block id="2183c79114d56889f4a8854299f703a5" category="list-text">2024년 4월부터 ONTAP Select Deploy 9.13.1 은 NetApp Support 사이트에서 더 이상 제공되지 않습니다. ONTAP Select 배포 9.13.1을 실행 중인 경우 가능한 한 빨리 ONTAP Select 배포 9.14.1P2로 업그레이드해야 합니다. 자세한 내용은 를 참조하십시오 <block ref="6635db952aa4480bb5bc591b4d6d32f6" category="inline-link-macro-rx"></block>.</block>
+  <block id="6e1144fb904fc4097d1a90d7908b66cc" category="paragraph">2024년 4월부터 NetApp Support 사이트에서 ONTAP Select Deploy 9.12.1을 더 이상 사용할 수 없습니다. ONTAP Select Deploy 9.12.1을 실행 중인 경우 가능한 한 빨리 ONTAP Select Deploy 9.14.1P2로 업그레이드해야 합니다. 자세한 내용은 를 참조하십시오 <block ref="6635db952aa4480bb5bc591b4d6d32f6" category="inline-link-macro-rx"></block>.</block>
+  <block id="044e8c7d609a0b31483ad9c6588ccd58" category="admonition">대용량 인스턴스 유형으로 크기 조정하는 것은 ESXi에서만 지원됩니다.</block>
+  <block id="afc299163ecc817c9d73bc5033f67218" category="admonition">각 토폴로지에 필요한 서로 다른 NIC 팀 구성 간에 변환해야 하므로 실행 중인 클러스터에서 단일 링크와 여러 링크 토폴로지 간의 변환이 지원되지 않습니다.</block>
 </blocks>
